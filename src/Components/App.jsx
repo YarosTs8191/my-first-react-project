@@ -1,4 +1,5 @@
-import Product from './Product';
+import Product from "./product";
+import clsx from "clsx";
 
 // src/components/App.jsx
 
