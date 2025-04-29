@@ -1,4 +1,4 @@
-import "./App.css";
+import css from "./Product.module.css";
 export default function Product({ name, imgUrl, price }) {
   return (
     <div>
