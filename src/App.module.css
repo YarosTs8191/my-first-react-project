@@ -1,0 +1,17 @@
+.productSection {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 32px;
+  padding: 32px 16px;
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+.productTitle {
+  display: flex;
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin: 12px 0 4px;
+  color: #dcd8d8;
+}

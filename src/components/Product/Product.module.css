@@ -1,0 +1,31 @@
+.productContainer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.productImg {
+  width: 100%;
+  max-width: 480px;
+  border-radius: 12px;
+  object-fit: cover;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.productImg:hover {
+  transform: scale(1.03);
+}
+
+.productTitle {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin: 12px 0 4px;
+  color: #dcd8d8;
+}
+
+.productText {
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.4;
+}
