@@ -1,6 +1,7 @@
 .productContainer {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   width: 100%;
 }
 
@@ -18,6 +19,8 @@
 }
 
 .productTitle {
+  display: flex;
+  justify-content: center;
   font-size: 1.5rem;
   font-weight: 600;
   margin: 12px 0 4px;
@@ -25,7 +28,9 @@
 }
 
 .productText {
+  display: flex;
+  justify-content: center;
   font-size: 1rem;
-  color: #555;
+  color: #e2cd11;
   line-height: 1.4;
 }

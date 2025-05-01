@@ -44,7 +44,7 @@ export default function LoginForm({ onLogin }) {
       validationSchema={FeedbackSchema}
     >
       <Form className={css.formContainer}>
-        <div>
+        <div className={css.labelContainer}>
           <label className={css.labelText} htmlFor={nameFieldId}>
             Username
           </label>
@@ -57,7 +57,7 @@ export default function LoginForm({ onLogin }) {
           <ErrorMessage name="username" component="span" />
         </div>
 
-        <div>
+        <div className={css.labelContainer}>
           <label className={css.labelText} htmlFor={emailFieldId}>
             Email
           </label>
@@ -70,7 +70,7 @@ export default function LoginForm({ onLogin }) {
           <ErrorMessage name="email" component="span" />
         </div>
 
-        <div>
+        <div className={css.labelContainer}>
           <label className={css.labelText} htmlFor={msgFieldId}>
             Message
           </label>
@@ -84,7 +84,7 @@ export default function LoginForm({ onLogin }) {
           <ErrorMessage name="message" component="span" />
         </div>
 
-        <div>
+        <div className={css.labelContainer}>
           <label className={css.labelText} htmlFor={levelFieldId}>
             Service satisfaction level
           </label>

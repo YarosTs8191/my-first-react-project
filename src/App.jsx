@@ -25,7 +25,7 @@ export default function App() {
         />
       </section>
       <section className={css.productSection}>
-        <h1 className={css.productTitle}>Please login to your account!</h1>
+        <h1 className={css.formTitle}>Please login to your account!</h1>
         <LoginForm onLogin={handleLogin} />
       </section>
     </>
